@@ -28,7 +28,7 @@ module.exports = {
     try {
       let clientapp = client.application ? await client.application.fetch().catch(e=>false) : false;
       let guild = client.guilds.cache.get("773668217163218944")
-      return message.reply({content : `**<:no:833101993668771842> THIS COMMAND IS DISABLED, go to discord.gg/https://sites.google.com/view/zink-bot/home?pli=1 and <#840332764603351101> to get it restarted!**\n\n\n> **Path:**
+      return message.reply({content : `**<:no:833101993668771842> THIS COMMAND IS DISABLED, go to discord.gg/milrato and <#840332764603351101> to get it restarted!**\n\n\n> **Path:**
 \`\`\`yml
 ${process.cwd()}
 \`\`\`
@@ -56,7 +56,7 @@ ${clientapp.description ? clientapp.description : "❌ NO DESCRIPTION YET!"}
       : ""}
       `});
 
-      require("child_process").exec(`pm2 stop index.js ZinkBOT_${process.cwd().split(require("path").sep).pop()}`, (error, stdout, stderr) => {
+      require("child_process").exec(`pm2 stop index.js CLANBOT_${process.cwd().split(require("path").sep).pop()}`, (error, stdout, stderr) => {
         if (error) {
           console.error(`exec error: ${error}`);
           message.reply({content : eval(client.la[ls]["cmds"]["owner"]["stopbot"]["variable4"])})
@@ -75,10 +75,10 @@ ${clientapp.description ? clientapp.description : "❌ NO DESCRIPTION YET!"}
 };
 /**
  * @INFO
- * Bot Coded by Tomato#6966 | https://discord.gg/https://sites.google.com/view/zink-bot/home?pli=1
+ * Bot Coded by S409#7733 | https://discord.gg/milrato
  * @INFO
- * Work for https://sites.google.com/view/zink-bot/home?pli=1 Development | https://https://sites.google.com/view/zink-bot/home?pli=1.eu
+ * Work for Milrato Development | https://https://sites.google.com/view/zink-bot
  * @INFO
- * Please mention him / https://sites.google.com/view/zink-bot/home?pli=1 Development, when using this Code!
+ * Please mention him / Milrato Development, when using this Code!
  * @INFO
  */

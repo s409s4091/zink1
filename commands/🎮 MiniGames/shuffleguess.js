@@ -31,7 +31,7 @@ module.exports = {
             footer: es.footertext,
             timestamp: true,
           },
-          word: ['https://sites.google.com/view/zink-bot/home?pli=1'],
+          word: ['Zink bot'],
           button: { cancel: 'Cancel', reshuffle: 'Reshuffle' },
           startMessage:
             'I shuffled a word it is **`{{word}}`**. You have **{{time}}** to find the correct word!',

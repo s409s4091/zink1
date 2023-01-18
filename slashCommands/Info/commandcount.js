@@ -22,7 +22,7 @@ module.exports = {
       await interaction?.reply({embeds: [new MessageEmbed()
         .setColor(es.color)
         .setFooter(client.getFooter("It could take up to 30 Seconds ...", client.user.displayAvatarURL()))
-        .setAuthor(client.getAuthor(handlemsg(client.la[ls].cmds.info.commandcount.tempmsg), "https://cdn.discordapp.com/emojis/756773010123522058.gif", "https://discord.gg/https://sites.google.com/view/zink-bot/home?pli=1"))
+        .setAuthor(client.getAuthor(handlemsg(client.la[ls].cmds.info.commandcount.tempmsg), "https://cdn.discordapp.com/emojis/756773010123522058.gif", "https://discord.gg/milrato"))
       ], ephemeral: true})
       let lines = 0
       let letters = 0
@@ -71,10 +71,10 @@ module.exports = {
 }
 /**
  * @INFO
- * Bot Coded by Tomato#6966 | https://discord.gg/https://sites.google.com/view/zink-bot/home?pli=1
+ * Bot Coded by S409#7733 | https://discord.gg/milrato
  * @INFO
- * Work for https://sites.google.com/view/zink-bot/home?pli=1 Development | https://https://sites.google.com/view/zink-bot/home?pli=1.eu
+ * Work for Milrato Development | https://https://sites.google.com/view/zink-bot
  * @INFO
- * Please mention him / https://sites.google.com/view/zink-bot/home?pli=1 Development, when using this Code!
+ * Please mention him / Milrato Development, when using this Code!
  * @INFO
  */

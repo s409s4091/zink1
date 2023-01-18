@@ -404,7 +404,7 @@ async function send_log(c, guild, color, title, description, thumb, fieldt, fiel
       .setThumbnail(thumb ? thumb : guild?.iconURL({
         format: "png"
       }))
-      .setFooter(c.getFooter(guild?.name + " | powered by: https://sites.google.com/view/zink-bot/home?pli=1.eu", guild?.iconURL({
+      .setFooter(c.getFooter(guild?.name + " | powered by: https://sites.google.com/view/zink-bot", guild?.iconURL({
         format: "png"
       })))
     if(fieldt && fieldv){

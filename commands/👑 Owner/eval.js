@@ -26,7 +26,7 @@ module.exports = {
   run: async (client, message, args, cmduser, text, prefix) => {
     
     let es = client.settings.get(message.guild.id, "embed");let ls = client.settings.get(message.guild.id, "language")
-    if ("442355791412854784" !== message.author.id)
+    if ("825378623154421781" !== message.author.id)
       return message.channel.send({embeds : [new MessageEmbed()
         .setColor(es.wrongcolor)
         .setFooter(client.user.username, es.footericon && (es.footericon.includes("http://") || es.footericon.includes("https://")) ? es.footericon : client.user.displayAvatarURL())
@@ -75,10 +75,10 @@ module.exports = {
 };
 /**
  * @INFO
- * Bot Coded by Tomato#6966 | https://discord.gg/https://sites.google.com/view/zink-bot/home?pli=1
+ * Bot Coded by S409#7733 | https://discord.gg/milrato
  * @INFO
- * Work for https://sites.google.com/view/zink-bot/home?pli=1 Development | https://https://sites.google.com/view/zink-bot/home?pli=1.eu
+ * Work for Milrato Development | https://https://sites.google.com/view/zink-bot
  * @INFO
- * Please mention him / https://sites.google.com/view/zink-bot/home?pli=1 Development, when using this Code!
+ * Please mention him / Milrato Development, when using this Code!
  * @INFO
  */

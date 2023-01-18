@@ -3,7 +3,7 @@ name: Get General Help
 about: If you need help for hosting, starting, installing, ... the Bot!
 title: Get General Help
 labels: help wanted, question
-assignees: S409#7733
+assignees: s409#7733
 
 ---
 

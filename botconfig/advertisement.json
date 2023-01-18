@@ -1,10 +1,10 @@
 {
    "adenabled": true,
    "statusad": {
-      "name": "Go to our website for many options!",
-      "type": "STREAMING",
-      "url": "https://www.twitch.tv/zinkbot0"
+      "name": "-HELP",
+      "type": "PLAYING",
+      "url": "https://twitch.tv/zinkbot"
    },
    "spacedot": "・",
-   "textad": "a"
+   "textad": "-HELP"
 }

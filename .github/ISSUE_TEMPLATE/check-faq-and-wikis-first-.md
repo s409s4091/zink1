@@ -8,6 +8,6 @@ assignees: ''
 
 ---
 
-# [Readme & Installation Guide](https://github.com/S409#7733/Multipurpose-discord-bot#installation-guide-
+# [Readme & Installation Guide](https://github.com/s409#7733/Multipurpose-discord-bot#installation-guide-
 
-# [WIKI & FAQ](https://github.com/S409#7733/Multipurpose-discord-bot/wiki#faq)
+# [WIKI & FAQ](https://github.com/s409#7733/Multipurpose-discord-bot/wiki#faq)

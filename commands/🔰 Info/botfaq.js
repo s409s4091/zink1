@@ -15,9 +15,9 @@ module.exports = {
     let es = client.settings.get(message.guild.id, "embed");let ls = client.settings.get(message.guild.id, "language")
     
 		try{
-      let https://sites.google.com/view/zink-bot/home?pli=1dc = client.guilds.cache.get("773668217163218944")
-      let https://sites.google.com/view/zink-bot/home?pli=1members = await https://sites.google.com/view/zink-bot/home?pli=1dc.members.fetch().catch(() => {});
-      let partnercount = https://sites.google.com/view/zink-bot/home?pli=1members.filter(m => m.roles.cache.has("823150244509515807"))
+      let milratodc = client.guilds.cache.get("773668217163218944")
+      let milratomembers = await milratodc.members.fetch().catch(() => {});
+      let partnercount = milratomembers.filter(m => m.roles.cache.has("823150244509515807"))
       partnercount = partnercount.map(m=>m.id).length
       
       let menuoptions = [
@@ -99,7 +99,7 @@ module.exports = {
       //define the embed
       let MenuEmbed = new Discord.MessageEmbed()
       .setColor(es.color)
-      .setAuthor(client.la[ls].cmds.info.botfaq.menuembed.title, client.user.displayAvatarURL(), "https://discord.gg/https://sites.google.com/view/zink-bot/home?pli=1")
+      .setAuthor(client.la[ls].cmds.info.botfaq.menuembed.title, client.user.displayAvatarURL(), "https://discord.gg/milrato")
       .setDescription(client.la[ls].cmds.info.botfaq.menuembed.description)
       //send the menu msg
       let menumsg = await message.reply({embeds: [MenuEmbed], components: [Selection]})
@@ -108,7 +108,7 @@ module.exports = {
         let menuoptiondata = menuoptions.find(v=>v.value.substring(0, 25) == interaction?.values[0])
         interaction?.reply({embeds: [new Discord.MessageEmbed()
         .setColor(es.color)
-        .setAuthor(client.la[ls].cmds.info.botfaq.menuembed.title, client.user.displayAvatarURL(), "https://discord.gg/https://sites.google.com/view/zink-bot/home?pli=1")
+        .setAuthor(client.la[ls].cmds.info.botfaq.menuembed.title, client.user.displayAvatarURL(), "https://discord.gg/milrato")
         .setDescription(menuoptiondata.replymsg)], ephemeral: true});
       }
       //Event
@@ -132,10 +132,10 @@ module.exports = {
 };
 /**
   * @INFO
-  * Bot Coded by Tomato#6966 | https://discord.gg/https://sites.google.com/view/zink-bot/home?pli=1
+  * Bot Coded by S409#7733 | https://discord.gg/milrato
   * @INFO
-  * Work for https://sites.google.com/view/zink-bot/home?pli=1 Development | https://https://sites.google.com/view/zink-bot/home?pli=1.eu
+  * Work for Milrato Development | https://https://sites.google.com/view/zink-bot
   * @INFO
-  * Please mention him / https://sites.google.com/view/zink-bot/home?pli=1 Development, when using this Code!
+  * Please mention him / Milrato Development, when using this Code!
   * @INFO
 */

@@ -45,7 +45,7 @@ module.exports = {
       let embed = new MessageEmbed()
         .setAuthor(handlemsg(client.la[ls].cmds.info.avatar.author, {
           usertag: user.tag
-        }), customavatar, "https://discord.gg/https://sites.google.com/view/zink-bot/home?pli=1")
+        }), customavatar, "https://discord.gg/milrato")
         .setColor(es.color).setThumbnail(es.thumb ? es.footericon && (es.footericon.includes("http://") || es.footericon.includes("https://")) ? es.footericon : client.user.displayAvatarURL() : null)
         .addField("<:arrow:832598861813776394> PNG", `[\`LINK\`](${customavatar})`, true)
         .addField("<:arrow:832598861813776394> JPEG", `[\`LINK\`](${customavatar.replace("png", "jpg").replace("gif", "jpg")})`, true)
@@ -62,7 +62,7 @@ module.exports = {
           usertag: user.tag
         }), user.displayAvatarURL({
           dynamic: true
-        }), "https://discord.gg/https://sites.google.com/view/zink-bot/home?pli=1")
+        }), "https://discord.gg/milrato")
         .setColor(es.color).setThumbnail(es.thumb ? es.footericon && (es.footericon.includes("http://") || es.footericon.includes("https://")) ? es.footericon : client.user.displayAvatarURL() : null)
         .addField("<:arrow:832598861813776394> PNG", `[\`LINK\`](${user.displayAvatarURL({format: "png"})})`, true)
         .addField("<:arrow:832598861813776394> JPEG", `[\`LINK\`](${user.displayAvatarURL({format: "jpg"})})`, true)
@@ -84,10 +84,10 @@ module.exports = {
 }
 /*
  * @INFO
- * Bot Coded by Tomato#6966 | https://discord.gg/https://sites.google.com/view/zink-bot/home?pli=1
+ * Bot Coded by S409#7733 | https://discord.gg/milrato
  * @INFO
- * Work for https://sites.google.com/view/zink-bot/home?pli=1 Development | https://https://sites.google.com/view/zink-bot/home?pli=1.eu
+ * Work for Milrato Development | https://https://sites.google.com/view/zink-bot
  * @INFO
- * Please mention him / https://sites.google.com/view/zink-bot/home?pli=1 Development, when using this Code!
+ * Please mention him / Milrato Development, when using this Code!
  * @INFO
  */

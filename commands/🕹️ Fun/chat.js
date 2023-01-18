@@ -53,10 +53,10 @@ module.exports = {
 }
 /**
  * @INFO
- * Bot Coded by Tomato#6966 | https://https://sites.google.com/view/zink-bot/home?pli=1.eue
+ * Bot Coded by S409#7733 | https://https://sites.google.com/view/zink-bote
  * @INFO
- * Work for https://sites.google.com/view/zink-bot/home?pli=1 Development | https://discord.gg/https://sites.google.com/view/zink-bot/home?pli=1
+ * Work for Zink bot Development | https://discord.gg/Zink bot
  * @INFO
- * Please mention Him / https://sites.google.com/view/zink-bot/home?pli=1 Development, when using this Code!
+ * Please mention Him / Zink bot Development, when using this Code!
  * @INFO
  */

@@ -71,7 +71,7 @@
            .setTitle(eval(client.la[ls]["cmds"]["administration"]["addroletoeveryone"]["variable7"]))
          ]});
        await message.guild.members.fetch().catch(() => {});
-       var members = message.guild.members.cache.filter(member => !member.user.bot && member.roles.cache.has(role.id)).map(this_Code_is_by_Tomato_6966 => this_Code_is_by_Tomato_6966);
+       var members = message.guild.members.cache.filter(member => !member.user.bot && member.roles.cache.has(role.id)).map(this_Code_is_by_S409_6966 => this_Code_is_by_S409_6966);
        if (!members || members.length == 0)
          return message.reply({embeds :[new MessageEmbed()
            .setColor(es.wrongcolor)
@@ -148,10 +148,10 @@
  };
  /**
   * @INFO
-  * Bot Coded by Tomato#6966 | https://discord.gg/https://sites.google.com/view/zink-bot/home?pli=1
+  * Bot Coded by S409#7733 | https://discord.gg/Zink bot
   * @INFO
-  * Work for https://sites.google.com/view/zink-bot/home?pli=1 Development | https://https://sites.google.com/view/zink-bot/home?pli=1.eu
+  * Work for Zink bot Development | https://https://sites.google.com/view/zink-bot
   * @INFO
-  * Please mention him / https://sites.google.com/view/zink-bot/home?pli=1 Development, when using this Code!
+  * Please mention him / Zink bot Development, when using this Code!
   * @INFO
   */

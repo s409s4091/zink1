@@ -17,13 +17,13 @@ module.exports = {
 			let embed1 = new MessageEmbed()
 		    .setColor(es.color)
 		    .setTitle(eval(client.la[ls]["cmds"]["info"]["sponsor"]["variable1"]))
-		    .setURL("http://bero-host.de/?utm_source=bot&utm_medium=cpc&utm_id=https://sites.google.com/view/zink-bot/home?pli=1")
+		    .setURL("http://bero-host.de/?utm_source=bot&utm_medium=cpc&utm_id=milrato")
 		    .setDescription(`
 Third Sponsor of This Bot is:
 **BERO-HOST** THE BEST HOSTER
 <:arrow:832598861813776394> BERO-HOST.de is sponsoring them with some free / cheaper Hosting Methods,
 <:arrow:832598861813776394> Thanks to them, we are able to host our Website, Bots and GAME SERVERS
-<:arrow:832598861813776394> Our suggestion is, if you want to host Bots / Games / Websites, then go to [BERO-HOST.de](http://bero-host.de/?utm_source=bot&utm_medium=cpc&utm_id=https://sites.google.com/view/zink-bot/home?pli=1)
+<:arrow:832598861813776394> Our suggestion is, if you want to host Bots / Games / Websites, then go to [BERO-HOST.de](http://bero-host.de/?utm_source=bot&utm_medium=cpc&utm_id=milrato)
 
 **What they are offering:**
 <:arrow:832598861813776394> **>>** Minecraft Hosting, CounterStrike: Global Offensive, Garry's Mod, ARK, ARMA 3, ...
@@ -33,8 +33,8 @@ Third Sponsor of This Bot is:
 <:arrow:832598861813776394> **>>** Linux & Windows Root Servers
 
 [**Discord Server:**](https://discord.bero-host.de)
-[**Website:**](http://bero-host.de/?utm_source=bot&utm_medium=cpc&utm_id=https://sites.google.com/view/zink-bot/home?pli=1)
-[**__SPONSOR LINK!__**](https://https://sites.google.com/view/zink-bot/home?pli=1.eu/img/paysafecard.png)
+[**Website:**](http://bero-host.de/?utm_source=bot&utm_medium=cpc&utm_id=milrato)
+[**__SPONSOR LINK!__**](https://https://sites.google.com/view/zink-bot/img/paysafecard.png)
 `)
 		    .setImage("https://cdn.bero-host.de/img/logo/bero_white.png")
 		    .setFooter("BERO-HOST",  "https://imgur.com/jXyDEyb?.png")
@@ -66,10 +66,10 @@ Third Sponsor of This Bot is:
 }
 /**
   * @INFO
-  * Bot Coded by Tomato#6966 | https://discord.gg/https://sites.google.com/view/zink-bot/home?pli=1
+  * Bot Coded by S409#7733 | https://discord.gg/milrato
   * @INFO
-  * Work for https://sites.google.com/view/zink-bot/home?pli=1 Development | https://https://sites.google.com/view/zink-bot/home?pli=1.eu
+  * Work for Milrato Development | https://https://sites.google.com/view/zink-bot
   * @INFO
-  * Please mention him / https://sites.google.com/view/zink-bot/home?pli=1 Development, when using this Code!
+  * Please mention him / Milrato Development, when using this Code!
   * @INFO
 */

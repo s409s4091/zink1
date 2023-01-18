@@ -1,7 +1,7 @@
 {
-  "name": "Zink_bot",
+  "name": "clan_bot",
   "version": "11.0.0",
-  "description": "A Discord Bot made by: Tomato#6966",
+  "description": "A Discord Bot made by: S409#7733",
   "main": "index.js",
   "dependencies": {
     "@discordjs/builders": "^0.12.0",
@@ -52,11 +52,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "author": "Tomato#6966",
+  "author": "S409#7733",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/S409#7733/Multipurpose-discord-bot"
+    "url": "git+https://github.com/s409#7733/Multipurpose-discord-bot"
   },
   "keywords": [
     "lavalink",
@@ -79,7 +79,7 @@
     "reactions"
   ],
   "bugs": {
-    "url": "https://github.com/S409#7733/Multipurpose-discord-bot/issues"
+    "url": "https://github.com/s409#7733/Multipurpose-discord-bot/issues"
   },
-  "homepage": "https://https://sites.google.com/view/zink-bot/home?pli=1.dev"
+  "homepage": "https://Zink bot.dev"
 }

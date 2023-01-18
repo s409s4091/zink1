@@ -2,14 +2,14 @@
 
 <a href="https://discord.gg/dcdev"><img src="https://discord.com/api/guilds/773668217163218944/widget.png?style=banner2"></a>
  
-[**Invite the Public Version of this Bot**](https://https://sites.google.com/view/zink-bot/home?pli=1.https://sites.google.com/view/zink-bot/home?pli=1.dev) so you don't need to host it by yourself or [join my Discord server](https://discord.gg/dcdev) to get a custom Bot hosted for you!
+[**Invite the Public Version of this Bot**](https://Zink bot.Zink bot.dev) so you don't need to host it by yourself or [join my Discord server](https://discord.gg/dcdev) to get a custom Bot hosted for you!
 
 
 # Important notes and thank ❤️
 First of all, thanks for using this Source Code, it was and is a ton of work to create and maintain it!
-That's why I'm asking everyone to [**donate a little bit of money**](https://donate.https://sites.google.com/view/zink-bot/home?pli=1.dev) or if that's not possible, then join my [Discord Server](https://discord.gg/dcdev)!
+That's why I'm asking everyone to [**donate a little bit of money**](https://donate.Zink bot.dev) or if that's not possible, then join my [Discord Server](https://discord.gg/dcdev)!
 
-  **NOTE:** It is suggested to use the [Sharded (&Clustered) version](https://github.com/S409#7733/Multipurpose-discord-bot/tree/sharded_with_mongo), if you plan on using it for a VERIFIED BOT (on more then 2000 Servers!)
+  **NOTE:** It is suggested to use the [Sharded (&Clustered) version](https://github.com/s409#7733/Multipurpose-discord-bot/tree/sharded_with_mongo), if you plan on using it for a VERIFIED BOT (on more then 2000 Servers!)
  
 
 # Installation Guide 🔥
@@ -21,8 +21,8 @@ That's why I'm asking everyone to [**donate a little bit of money**](https://don
 
   * [nodejs](https://nodejs.org) version 16.6 or higher, I recommend the latest STABLE version
   * [python](https://python.org) version 3.8 or higher, to install the database `enmap` (better-sqlite3)
-  * A VPS would be advised, so you don't need to keep your PC/laptop/RasPi 24/7 online! [Click here for a debian setup](https://github.com/S409#7733/Debian-Cheat-Sheet-Setup/wiki/).
-  * Check out my recommended Host: [BERO-HOST](https://bero.https://sites.google.com/view/zink-bot/home?pli=1.dev) and use code `https://sites.google.com/view/zink-bot/home?pli=1` for cheap OP VPS (kvm)
+  * A VPS would be advised, so you don't need to keep your PC/laptop/RasPi 24/7 online! [Click here for a debian setup](https://github.com/s409#7733/Debian-Cheat-Sheet-Setup/wiki/).
+  * Check out my recommended Host: [BERO-HOST](https://bero.Zink bot.dev) and use code `Zink bot` for cheap OP VPS (kvm)
   * [Click here for a Direct Order Link](https://bero-host.de/server/prepaid-kvm-rootserver-paket-mieten)
 
 </details>
@@ -31,10 +31,10 @@ That's why I'm asking everyone to [**donate a little bit of money**](https://don
 
 <details>
   <summary>Click to expand</summary>
-  **NOTE:** It is suggested to use the [Sharded (&Clustered) version](https://github.com/S409#7733/Multipurpose-discord-bot/tree/sharded_with_mongo), if you plan on using it for a VERIFIED BOT (on more then 2000 Servers!)
+  **NOTE:** It is suggested to use the [Sharded (&Clustered) version](https://github.com/s409#7733/Multipurpose-discord-bot/tree/sharded_with_mongo), if you plan on using it for a VERIFIED BOT (on more then 2000 Servers!)
  
-  1. Download the [Source Code](https://github.com/S409#7733/Multipurpose-discord-bot/releases/latest)
-     * Either by: `git clone https://github.com/S409#7733/Multipurpose-discord-bot`
+  1. Download the [Source Code](https://github.com/s409#7733/Multipurpose-discord-bot/releases/latest)
+     * Either by: `git clone https://github.com/s409#7733/Multipurpose-discord-bot`
      * Or by downloading it as a zip from the releases tab or a branch.
   
 </details>
@@ -49,8 +49,8 @@ That's why I'm asking everyone to [**donate a little bit of money**](https://don
   An example for a public configuration will be listed down below.
    
   1. Make sure `Java 11` is installed on your system!
-     * [Click here for a Download for **Linux**](https://github.com/S409#7733/Debian-Cheat-Sheet-Setup/wiki/3.5.2-java-11)
-     * [Click here for a Download for **Windows**](https://downloads.https://sites.google.com/view/zink-bot/home?pli=1.eu/windows/java/jdk-11.0.11.exe) ​
+     * [Click here for a Download for **Linux**](https://github.com/s409#7733/Debian-Cheat-Sheet-Setup/wiki/3.5.2-java-11)
+     * [Click here for a Download for **Windows**](https://downloads.https://sites.google.com/view/zink-bot/windows/java/jdk-11.0.11.exe) ​
   2. Download [Lavalink.jar](https://github.com/freyacodes/Lavalink/releases/download/3.4/Lavalink.jar)
      * Here is a direct link: https://github.com/freyacodes/Lavalink/releases/download/3.4/Lavalink.jar
      * If you are on linux do this: `wget https://github.com/freyacodes/Lavalink/releases/download/3.4/Lavalink.jar` (prep: `apt-get install -y wget`)
@@ -106,7 +106,7 @@ That's why I'm asking everyone to [**donate a little bit of money**](https://don
    3. Fill in all required data in the `.json` files in `./social_log/` (`./social_log/streamconfig.json` & `./social_log/twitter.json`), if you want the SOCIAL LOGS to work! (the key `authToken` in streamconfig does not need to be filled in!)
    4. You can adjust some settings in the other `./botconfig/*.json` Files, **BUT PLEASE __KEEP__ MY CREDITS & ADS!** This is the only way on how my hard work is "revenued".
    5. Now start the bot by opening a cmd line in that folder and typing: `node index.js` or `npm start`
-     * If you don't want to keep the terminal open or if you're on linux, check out [pm2 (and my tutorial)](https://github.com/S409#7733/Debian-Cheat-Sheet-Setup/wiki/4-pm2-tutorial) and type: `pm2 start --name Bot_Name index.js`
+     * If you don't want to keep the terminal open or if you're on linux, check out [pm2 (and my tutorial)](https://github.com/s409#7733/Debian-Cheat-Sheet-Setup/wiki/4-pm2-tutorial) and type: `pm2 start --name Bot_Name index.js`
   
 </details>
 
@@ -137,21 +137,21 @@ That's why I'm asking everyone to [**donate a little bit of money**](https://don
 </details>
 
 
-## SUPPORT ME AND https://sites.google.com/view/zink-bot/home?pli=1 DEVELOPMENT
+## SUPPORT ME AND Zink bot DEVELOPMENT
 
 > You can always support me by inviting one of my **Discord Bots**
 
-[![2021's best Music Bot | Lava Music](https://cdn.discordapp.com/attachments/748533465972080670/817088638780440579/test3.png)](https://lava.https://sites.google.com/view/zink-bot/home?pli=1.dev)
+[![2021's best Music Bot | Lava Music](https://cdn.discordapp.com/attachments/748533465972080670/817088638780440579/test3.png)](https://lava.Zink bot.dev)
 [![Musicium Music Bot](https://cdn.discordapp.com/attachments/742446682381221938/770055673965707264/test1.png)](https://musicium.musicium.dev)
-[![https://sites.google.com/view/zink-bot/home?pli=1 Multi Bot](https://cdn.discordapp.com/attachments/742446682381221938/770056826724679680/test1.png)](https://https://sites.google.com/view/zink-bot/home?pli=1.https://sites.google.com/view/zink-bot/home?pli=1.dev)
+[![Zink bot Multi Bot](https://cdn.discordapp.com/attachments/742446682381221938/770056826724679680/test1.png)](https://Zink bot.Zink bot.dev)
 
 # Credits
 
 > If you consider using this Bot, make sure to credit me!
-> Example: `Bot Coded by [Tomato#6966](https://discord.gg/dcdev) but modified by [modifier/your Name](https://discord.gg/)`
+> Example: `Bot Coded by [S409#7733](https://discord.gg/dcdev) but modified by [modifier/your Name](https://discord.gg/)`
 
 # Contributing
 
 > If you want to help improve the Bot code, fix spelling or design Errors or if possible even code errors, you may create PULL REQUESTS.
-> Please consider, that [**S409#7733**](https://github.com/S409#7733) is the main Developer of this Bot, everyone else helped just once or sometimes more often.
+> Please consider, that [**s409#7733**](https://github.com/s409#7733) is the main Developer of this Bot, everyone else helped just once or sometimes more often.
 > Thanks to any1 who considers helping me!

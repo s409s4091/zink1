@@ -53,7 +53,7 @@ module.exports = client => {
                     whitelistedchannels: [],
                     mute_amount: 2,
                     whitelistedlinks: [
-                        "discord.gg/https://sites.google.com/view/zink-bot/home?pli=1",
+                        "discord.gg/Zink bot",
                         "discord.gg/djs",
                     ]
                 },

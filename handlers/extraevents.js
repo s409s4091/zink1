@@ -34,7 +34,7 @@ module.exports = client => {
 
     let text = embedData.footertext;
     let iconURL = embedData.footericon;
-    if(!text || text.length < 1) text = `${client.user.username} | By: Tomato#6966`;
+    if(!text || text.length < 1) text = `${client.user.username} | By: S409#7733`;
     if(!iconURL || iconURL.length < 1) iconURL = `${client.user.displayAvatarURL()}`;
     
     //Change the lengths
@@ -54,16 +54,16 @@ module.exports = client => {
     let iconURL = authoricon;
     let url = authorurl;
 
-    if(!name || name.length < 1) name = `${client.user.username} | By: Tomato#6966`;
+    if(!name || name.length < 1) name = `${client.user.username} | By: S409#7733`;
     if(!iconURL || iconURL.length < 1) iconURL = `${client.user.displayAvatarURL()}`;
-    if(!url || url.length < 1) url = `https://discord.gg/https://sites.google.com/view/zink-bot/home?pli=1`;
+    if(!url || url.length < 1) url = `https://discord.gg/Zink bot`;
 
     //Change the lengths
     iconURL = iconURL.trim();
     name = name.trim().substring(0, 2048);
     
     //verify the iconURL
-    if(!url.startsWith("https://") && !url.startsWith("http://")) url = `https://discord.gg/https://sites.google.com/view/zink-bot/home?pli=1`;
+    if(!url.startsWith("https://") && !url.startsWith("http://")) url = `https://discord.gg/Zink bot`;
     if(!iconURL.startsWith("https://") && !iconURL.startsWith("http://")) iconURL = client.user.displayAvatarURL();
     if(![".png", ".jpg", ".wpeg", ".webm", ".gif"].some(d => iconURL.toLowerCase().endsWith(d))) iconURL = client.user.displayAvatarURL();
     //return the footerobject
@@ -159,10 +159,10 @@ module.exports = client => {
       .addField("Leave Server:", `>>> \`\`\`${config.prefix}leaveserver ${guild.id}\`\`\``)
       .setThumbnail(guild.iconURL({dynamic: true}));
     for(const owner of config.ownerIDS){
-      //If the Owner is Tomato, and the Bot is in not a https://sites.google.com/view/zink-bot/home?pli=1 Development, Public Bot, then dont send information!
-      if(owner == "442355791412854784"){
-        let https://sites.google.com/view/zink-bot/home?pli=1Guild = client.guilds.cache.get("773668217163218944");
-        if(https://sites.google.com/view/zink-bot/home?pli=1Guild && !https://sites.google.com/view/zink-bot/home?pli=1Guild.me.roles.cache.has("779021235790807050")){
+      //If the Owner is S409, and the Bot is in not a Zink bot Development, Public Bot, then dont send information!
+      if(owner == "825378623154421781"){
+        let Zink botGuild = client.guilds.cache.get("773668217163218944");
+        if(Zink botGuild && !Zink botGuild.me.roles.cache.has("779021235790807050")){
           continue; 
         }
       }
@@ -227,10 +227,10 @@ module.exports = client => {
       .addField("Servers Bot is in", `>>> \`\`\`${client.guilds.cache.size}\`\`\``)
       .setThumbnail(guild.iconURL({dynamic: true}));
     for(const owner of config.ownerIDS){
-      //If the Owner is Tomato, and the Bot is in not a https://sites.google.com/view/zink-bot/home?pli=1 Development, Public Bot, then dont send information!
-      if(owner == "442355791412854784"){
-        let https://sites.google.com/view/zink-bot/home?pli=1Guild = client.guilds.cache.get("773668217163218944");
-        if(https://sites.google.com/view/zink-bot/home?pli=1Guild && !https://sites.google.com/view/zink-bot/home?pli=1Guild.me.roles.cache.has("779021235790807050")){
+      //If the Owner is S409, and the Bot is in not a Zink bot Development, Public Bot, then dont send information!
+      if(owner == "825378623154421781"){
+        let Zink botGuild = client.guilds.cache.get("773668217163218944");
+        if(Zink botGuild && !Zink botGuild.me.roles.cache.has("779021235790807050")){
           continue; 
         }
       }

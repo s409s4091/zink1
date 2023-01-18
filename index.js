@@ -12,7 +12,7 @@
  * 8  LOAD_the_BOT_Functions
  * 9  Login_to_the_Bot
  * 
- *   BOT CODED BY: S409#7733 | https://https://sites.google.com/view/zink-bot/home?pli=1.eu
+ *   BOT CODED BY: s409#7733 | https://https://sites.google.com/view/zink-bot
  *********************************************************/
 
 
@@ -71,7 +71,7 @@ const client = new Discord.Client({
 
 
 /**********************************************************
- * @param {4} Create_the_client.memer property from Tomato's Api 
+ * @param {4} Create_the_client.memer property from S409's Api 
  *********************************************************/
 const Meme = require("memer-api");
 client.memer = new Meme(process.env.memer_api || config.memer_api); // GET a TOKEN HERE: https://discord.gg/Mc2FudJkgP
@@ -149,10 +149,10 @@ client.login(process.env.token || config.token);
 
 /**********************************************************
  * @INFO
- * Bot Coded by Tomato#6966 | https://discord.gg/https://sites.google.com/view/zink-bot/home?pli=1
+ * Bot Coded by S409#7733 | https://discord.gg/Zink bot
  * @INFO
- * Work for https://sites.google.com/view/zink-bot/home?pli=1 Development | https://https://sites.google.com/view/zink-bot/home?pli=1.eu
+ * Work for Zink bot Development | https://https://sites.google.com/view/zink-bot
  * @INFO
- * Please mention him / https://sites.google.com/view/zink-bot/home?pli=1 Development, when using this Code!
+ * Please mention him / Zink bot Development, when using this Code!
  * @INFO
  *********************************************************/

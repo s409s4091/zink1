@@ -122,10 +122,10 @@ module.exports = {
 }
 /**
  * @INFO
- * Bot Coded by Tomato#6966 | https://github?.com/S409#7733/Discord-Js-Handler-Template
+ * Bot Coded by S409#7733 | https://github?.com/s409#7733/Discord-Js-Handler-Template
  * @INFO
- * Work for https://sites.google.com/view/zink-bot/home?pli=1 Development | https://https://sites.google.com/view/zink-bot/home?pli=1.eu
+ * Work for Zink bot Development | https://https://sites.google.com/view/zink-bot
  * @INFO
- * Please mention him / https://sites.google.com/view/zink-bot/home?pli=1 Development, when using this Code!
+ * Please mention him / Zink bot Development, when using this Code!
  * @INFO
  */
